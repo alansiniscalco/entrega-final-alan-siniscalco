@@ -1,34 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina final</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css">
     <script src="https://kit.fontawesome.com/358d5415fa.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="">
+
+    <title>Comentarios</title>
+
     <style>
-        *{
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: blueviolet;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+        body{
+    background: url(.../imagenes/sobre/bg-pattern-bottom-desktop.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    font-family: 'League Spartan', sans-serif;
+}
     </style>
 
 
 </head>
 
 <body>
-    <header>
-        <div class="menu">
+
+    <div class="menu">
             <nav>
-                <li><a href="./index.html" class="logo"><i id="ms" class="marvel-fans"></i>MarvelStudiosFans</a></li>
-                <li><a href="./login.html">Unirse</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./massobre.html">Informacion extra</a></li>
-                <li><a href="./comentarios.html">comentarios</a></li>
+                <ul>
+                    <li><a href="./index.html" class="logo"><i id="ms" class="fa-solid fa-ms-marvel-up"></i>MarvelStudiosFans</a></li>
+                    <li><a href="./login.html">Unirse</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./massobre.html">Informacion extra</a></li>
+                    <li><a href="./comentarios.html">comentarios</a></li>
+                </ul>
             </nav>
         </div>
-    </header>
-    
+    <div class="container">
+        <header>
+            <h1>Que mejor para puntuar estas obres de arte, que nosotros los fans</h1>
+            <p>tuvimos muchos comentarios pero elegimos algunos para que sepan lo que es bueno
+                asique disfruten
+            </p>
+        </header>
+        <div class="starscontainer">
+            <div class="stars star1">
+                <div class="fivestars">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+
+                </div>
+                <h4 class="text">ironman 3 obtiene un 3</h4>
+            </div>
+            <div class="stars star2">
+                <div class="fivestars">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                </div>
+                <h4 class="text">avengers end game obtiene un 5</h4>
+            </div>
+            <div class="stars star3">
+                <div class="fivestars">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+                    <img src="imagenes/icon-star.svg" alt="">
+
+                </div>
+                <h4 class="text">spiderman home-coming obtiene un 4</h4>
+            </div>
+        </div>
+
+        <div class="cardscontainer">
+            <div class="cards card1">
+                <img src="./imagenes/ironman2.jpg" alt="">
+                <span class="name">Ironman 3</span>
+                <span class="status">Un clasico de marvel</span>
+                <p>ironman es un clasico de marve
+                    y como olvidarlo si cuenta con la actuacion del 
+                    gran robert downie junior interpretando a tony
+                    stark en esta tercera entrega de su saga.</p>
+            </div>
+
+            <div class="cards card2">
+                <img src="./imagenes/vengadores3final.jpg" alt="">
+                <span class="name">Avengers end game</span>
+                <span class="status">Los heroes mas poderosos de la tierra</span>
+                <p>los vengadores, el equipo de heroes principal perteneciente
+                    a marvel, se enfrentan a su batalla final contra uno de los
+                    villanos mas grandes de los comics el poderoso thanos
+                    ¿podran vencerlo? deberan averiguarlo en esta entrega.
+                    El juego final.</p>
+            </div>
+
+            <div class="cards card3">
+                <img src="./imagenes/spiderman3.jpg" alt="">
+                <span class="name">Spider home-coming</span>
+                <span class="status">el espectacula spiderman</span>
+                <p>que hablar sobre spiderman que ya no sepamos, nuestro amigable
+                    vecino, el heroe de nueva york, increible, el espectacular
+                    el sorprendente, HOMBRE ARAÑA, jajaja, vemos en esta entrega
+                    su debut junto a marvel studios, una pelicula que no peca de ser
+                    introductoria si no que nos presenta algo nuevo.</p>
+            </div>
+        </div>
+        <footer class="footer">
+    <hr>
+    <h2>
+        ©Todos los derechos reservados - Alan Siniscalco
+        <i class="fa-brands fa-instagram">siniscalcoalan</i>
+        <i class="fa-brands fa-facebook">Alan siniscalco</i></h2>
+</footer>
+
 </body>
 </html>

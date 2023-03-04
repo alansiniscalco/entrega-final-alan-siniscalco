@@ -1,0 +1,20 @@
+.section-saber1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    padding: 20px;  
+    
+    
+}
+
+@media only screen and (min-width: 894px){
+.section-saber1{
+    display: grid;
+    grid-column: auto;
+}
+
+    .footer{
+        display: grid;
+       
+    }
+}
