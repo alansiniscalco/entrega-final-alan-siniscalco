@@ -39,7 +39,6 @@
 .menu ul a:hover {
     color: rgb(61, 61, 238);
     transition-duration: 350ms;
-
 }
 
 .section1 h1 {
@@ -117,7 +116,6 @@
 
 .ms-galeri div:hover {
     flex: 2;
-
 }
 
 
@@ -144,18 +142,11 @@ font-size: 12px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
-
-
     }
 
     .section1 h1 {
-
         display: grid;
         justify-items: center;
-
-
     }
-
-
 
 }
